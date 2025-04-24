@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Original_Scene.unity
+- path: Assets/2276209_YJW/jiwoon_scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
