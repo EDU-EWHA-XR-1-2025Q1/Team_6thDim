@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/2271024_KHS/heeseo_scene.unity
+- path: Assets/2276246_LJH/jihyun_scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
