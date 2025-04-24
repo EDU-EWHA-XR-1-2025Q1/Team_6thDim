@@ -1,5 +1,9 @@
 -target:library
 <<<<<<< HEAD
+-out:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.dll"
+-refout:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD:TW01/Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.rsp
 -out:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.dll"
 -refout:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
@@ -11,6 +15,7 @@
 -out:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.dll"
 -refout:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 >>>>>>> 9da7c9f5beba6e6d975881478159654181ef194f
+>>>>>>> origin/main
 -define:UNITY_2022_3_57
 -define:UNITY_2022_3
 -define:UNITY_2022
@@ -47,6 +52,9 @@
 -define:ENABLE_CACHING
 -define:ENABLE_CLOTH
 <<<<<<< HEAD
+-define:ENABLE_EVENT_QUEUE
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD:TW01/Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.rsp
 -define:ENABLE_EVENT_QUEUE
 =======
@@ -54,6 +62,7 @@
 =======
 -define:ENABLE_EVENT_QUEUE
 >>>>>>> 9da7c9f5beba6e6d975881478159654181ef194f
+>>>>>>> origin/main
 -define:ENABLE_MICROPHONE
 -define:ENABLE_MULTIPLE_DISPLAYS
 -define:ENABLE_PHYSICS
@@ -70,12 +79,15 @@
 -define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
 -define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD:TW01/Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.rsp
 =======
 -define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
 >>>>>>> 5908430d3de7ad743e14888a5698ad84e79983b1:TW01/Library/Bee/artifacts/200b0aE.dag/Unity.2D.Sprite.Editor.rsp
 =======
 >>>>>>> 9da7c9f5beba6e6d975881478159654181ef194f
+>>>>>>> origin/main
 -define:ENABLE_CLOUD_SERVICES_PURCHASING
 -define:ENABLE_CLOUD_SERVICES_ANALYTICS
 -define:ENABLE_CLOUD_SERVICES_BUILD
@@ -104,9 +116,12 @@
 -define:PLATFORM_STANDALONE
 -define:TEXTCORE_1_0_OR_NEWER
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD:TW01/Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.rsp
 =======
 >>>>>>> 9da7c9f5beba6e6d975881478159654181ef194f
+>>>>>>> origin/main
 -define:PLATFORM_STANDALONE_WIN
 -define:UNITY_STANDALONE_WIN
 -define:UNITY_STANDALONE
@@ -121,6 +136,8 @@
 -define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
 -define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
 -define:PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 -define:PLATFORM_STANDALONE_OSX
@@ -138,6 +155,7 @@
 >>>>>>> 5908430d3de7ad743e14888a5698ad84e79983b1:TW01/Library/Bee/artifacts/200b0aE.dag/Unity.2D.Sprite.Editor.rsp
 =======
 >>>>>>> 9da7c9f5beba6e6d975881478159654181ef194f
+>>>>>>> origin/main
 -define:ENABLE_MONO
 -define:NET_4_6
 -define:NET_UNITY_4_8
@@ -148,6 +166,9 @@
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_64
 <<<<<<< HEAD
+-define:UNITY_EDITOR_WIN
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD:TW01/Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.rsp
 -define:UNITY_EDITOR_WIN
 =======
@@ -156,6 +177,7 @@
 =======
 -define:UNITY_EDITOR_WIN
 >>>>>>> 9da7c9f5beba6e6d975881478159654181ef194f
+>>>>>>> origin/main
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
@@ -172,10 +194,13 @@
 -define:CSHARP_7_3_OR_NEWER
 -define:UNITY_EDITOR_ONLY_COMPILATION
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD:TW01/Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.rsp
 =======
 -r:"Assets/UnityTechnologies/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll"
 >>>>>>> 9da7c9f5beba6e6d975881478159654181ef194f
+>>>>>>> origin/main
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -265,9 +290,12 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+<<<<<<< HEAD
+=======
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
+>>>>>>> origin/main
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll"
@@ -394,6 +422,8 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 -r:"/Applications/Unity/Hub/Editor/2022.3.57f1/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
@@ -618,6 +648,7 @@
 >>>>>>> 5908430d3de7ad743e14888a5698ad84e79983b1:TW01/Library/Bee/artifacts/200b0aE.dag/Unity.2D.Sprite.Editor.rsp
 =======
 >>>>>>> 9da7c9f5beba6e6d975881478159654181ef194f
+>>>>>>> origin/main
 -r:"Library/PackageCache/com.unity.collab-proxy@2.6.0/Lib/Editor/log4netPlastic.dll"
 -r:"Library/PackageCache/com.unity.collab-proxy@2.6.0/Lib/Editor/Unity.Plastic.Antlr3.Runtime.dll"
 -r:"Library/PackageCache/com.unity.collab-proxy@2.6.0/Lib/Editor/Unity.Plastic.Newtonsoft.Json.dll"
@@ -629,15 +660,20 @@
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD:TW01/Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.rsp
 =======
 >>>>>>> 9da7c9f5beba6e6d975881478159654181ef194f
+>>>>>>> origin/main
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.TestRunner.ref.dll"
@@ -649,6 +685,7 @@
 >>>>>>> 5908430d3de7ad743e14888a5698ad84e79983b1:TW01/Library/Bee/artifacts/200b0aE.dag/Unity.2D.Sprite.Editor.rsp
 =======
 >>>>>>> 9da7c9f5beba6e6d975881478159654181ef194f
+>>>>>>> origin/main
 "Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/AssemblyInfo.cs"
 "Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Interface/IAssetDatabase.cs"
 "Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Interface/IEvent.cs"
@@ -700,6 +737,9 @@
 /preferreduilang:en-US
 -warn:0
 <<<<<<< HEAD
+/additionalfile:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.UnityAdditionalFile.txt"
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD:TW01/Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.rsp
 /additionalfile:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.UnityAdditionalFile.txt"
 =======
@@ -708,3 +748,4 @@
 =======
 /additionalfile:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.UnityAdditionalFile.txt"
 >>>>>>> 9da7c9f5beba6e6d975881478159654181ef194f
+>>>>>>> origin/main

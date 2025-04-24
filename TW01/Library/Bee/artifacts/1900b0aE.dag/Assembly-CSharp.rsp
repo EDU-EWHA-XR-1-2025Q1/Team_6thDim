@@ -1,5 +1,9 @@
 -target:library
 <<<<<<< HEAD
+-out:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll"
+-refout:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll"
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD:TW01/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp
 -out:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll"
 -refout:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll"
@@ -11,6 +15,7 @@
 -out:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll"
 -refout:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll"
 >>>>>>> 9da7c9f5beba6e6d975881478159654181ef194f
+>>>>>>> origin/main
 -define:UNITY_2022_3_57
 -define:UNITY_2022_3
 -define:UNITY_2022
@@ -47,6 +52,9 @@
 -define:ENABLE_CACHING
 -define:ENABLE_CLOTH
 <<<<<<< HEAD
+-define:ENABLE_EVENT_QUEUE
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD:TW01/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp
 -define:ENABLE_EVENT_QUEUE
 =======
@@ -54,6 +62,7 @@
 =======
 -define:ENABLE_EVENT_QUEUE
 >>>>>>> 9da7c9f5beba6e6d975881478159654181ef194f
+>>>>>>> origin/main
 -define:ENABLE_MICROPHONE
 -define:ENABLE_MULTIPLE_DISPLAYS
 -define:ENABLE_PHYSICS
@@ -70,12 +79,15 @@
 -define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
 -define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD:TW01/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp
 =======
 -define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
 >>>>>>> 5908430d3de7ad743e14888a5698ad84e79983b1:TW01/Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp
 =======
 >>>>>>> 9da7c9f5beba6e6d975881478159654181ef194f
+>>>>>>> origin/main
 -define:ENABLE_CLOUD_SERVICES_PURCHASING
 -define:ENABLE_CLOUD_SERVICES_ANALYTICS
 -define:ENABLE_CLOUD_SERVICES_BUILD
@@ -104,9 +116,12 @@
 -define:PLATFORM_STANDALONE
 -define:TEXTCORE_1_0_OR_NEWER
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD:TW01/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp
 =======
 >>>>>>> 9da7c9f5beba6e6d975881478159654181ef194f
+>>>>>>> origin/main
 -define:PLATFORM_STANDALONE_WIN
 -define:UNITY_STANDALONE_WIN
 -define:UNITY_STANDALONE
@@ -121,6 +136,8 @@
 -define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
 -define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
 -define:PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 -define:PLATFORM_STANDALONE_OSX
@@ -138,6 +155,7 @@
 >>>>>>> 5908430d3de7ad743e14888a5698ad84e79983b1:TW01/Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp
 =======
 >>>>>>> 9da7c9f5beba6e6d975881478159654181ef194f
+>>>>>>> origin/main
 -define:ENABLE_MONO
 -define:NET_STANDARD_2_0
 -define:NET_STANDARD
@@ -151,6 +169,9 @@
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_64
 <<<<<<< HEAD
+-define:UNITY_EDITOR_WIN
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD:TW01/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp
 -define:UNITY_EDITOR_WIN
 =======
@@ -159,6 +180,7 @@
 =======
 -define:UNITY_EDITOR_WIN
 >>>>>>> 9da7c9f5beba6e6d975881478159654181ef194f
+>>>>>>> origin/main
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
@@ -174,9 +196,12 @@
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD:TW01/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp
 =======
 >>>>>>> 9da7c9f5beba6e6d975881478159654181ef194f
+>>>>>>> origin/main
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -385,8 +410,11 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+<<<<<<< HEAD
+=======
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
+>>>>>>> origin/main
 -r:"Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-firstpass.ref.dll"
@@ -416,6 +444,15 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.57f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+<<<<<<< HEAD
+"Assets/2171023_SYL/SceneLoader.cs"
+"Assets/2171023_SYL/yelin_Bowl_Controller.cs"
+"Assets/2171023_SYL/yelin_Instantiate_GameObject.cs"
+"Assets/2171023_SYL/yelin_Item_Controller.cs"
+"Assets/2171023_SYL/yelin_Pick_Controller.cs"
+"Assets/2171023_SYL/yelin_Put_Controller.cs"
+"Assets/2171023_SYL/yelin_UI_Controller.cs"
+=======
 <<<<<<< HEAD
 "Assets/2276185_YDN/Scenes/Dana_Bowl_Controller.cs"
 "Assets/2276185_YDN/Scenes/Dana_Instantiate_GameObject.cs"
@@ -667,6 +704,7 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.57f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 =======
 >>>>>>> 9da7c9f5beba6e6d975881478159654181ef194f
+>>>>>>> origin/main
 "Assets/2271024_KHS/heeseo_Goal_Controller.cs"
 "Assets/2271024_KHS/heeseo_Item_Container.cs"
 "Assets/2271024_KHS/heeseo_Item_Controller.cs"
@@ -674,6 +712,9 @@
 "Assets/2271024_KHS/heeseo_Put_Controller.cs"
 "Assets/2271024_KHS/heeseo_Scene_Controller.cs"
 "Assets/2271024_KHS/heeseo_UI_Controller.cs"
+<<<<<<< HEAD
+"Assets/Original_Scene_Controller.cs"
+=======
 <<<<<<< HEAD
 "Assets/Original_Scene_Controller.cs"
 >>>>>>> 5908430d3de7ad743e14888a5698ad84e79983b1:TW01/Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.rsp
@@ -695,6 +736,7 @@
 "Assets/UnityTechnologies/EffectExamples/Shared/Scripts/ParticleMenu.cs"
 "Assets/UnityTechnologies/EffectExamples/TutorialInfo/Scripts/Readme.cs"
 >>>>>>> 9da7c9f5beba6e6d975881478159654181ef194f
+>>>>>>> origin/main
 -langversion:9.0
 /deterministic
 /optimize+
@@ -709,6 +751,9 @@
 /utf8output
 /preferreduilang:en-US
 <<<<<<< HEAD
+/additionalfile:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt"
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD:TW01/Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp
 /additionalfile:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt"
 =======
@@ -717,3 +762,4 @@
 =======
 /additionalfile:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt"
 >>>>>>> 9da7c9f5beba6e6d975881478159654181ef194f
+>>>>>>> origin/main
