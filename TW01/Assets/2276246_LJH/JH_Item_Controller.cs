@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class _Item_Controller : MonoBehaviour
+public class JH_Item_Controller : MonoBehaviour
 {
     public GameObject PickController;   // Step03 (D06_Pick_Controller.cs를 갖고 있는 게임 오브젝트용 변수)
     private void OnMouseDown()
     {
         PrintInfo();                    // Step01
-        PickController.GetComponent<_Pick_Controller>().Add_Click(gameObject); // Step03
+        PickController.GetComponent<JH_Pick_Controller>().Add_Click(gameObject); // Step03
     }
 
     // Step01: 게임 오브젝트의 이름 출력

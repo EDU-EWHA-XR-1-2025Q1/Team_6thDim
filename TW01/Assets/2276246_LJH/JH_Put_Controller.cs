@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class _Put_Controller : MonoBehaviour
+public class JH_Put_Controller : MonoBehaviour
 {
     public GameObject TargetObjectToThrow;
     public Transform PlayerCamera;
@@ -14,11 +14,11 @@ public class _Put_Controller : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && isInTheArea)
         {
-            int pickCounts = UI.GetComponent<_UI_Controller>().GetPickCounts();
+            int pickCounts = UI.GetComponent<JH_UI_Controller>().GetPickCounts();
             if (pickCounts > 0)
             {
                 Throw();
-                UI.GetComponent<_UI_Controller>().Decrease_PickCounts();
+                UI.GetComponent<JH_UI_Controller>().Decrease_PickCounts();
             }
         }
     }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class _Instantiate_GameObject : MonoBehaviour
+public class JH_Instantiate_GameObject : MonoBehaviour
 {
 
     public GameObject Target;       // Step02 (복제할 원본)
