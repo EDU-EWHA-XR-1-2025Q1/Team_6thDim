@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/2276185_YDN/Scenes/Dana_scene.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
