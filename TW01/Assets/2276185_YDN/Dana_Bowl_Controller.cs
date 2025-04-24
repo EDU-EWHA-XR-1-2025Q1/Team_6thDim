@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class D06_Bowl_Controller : MonoBehaviour
+public class Dana_Bowl_Controller : MonoBehaviour
 {
     public GameObject UI_Controller;
 
