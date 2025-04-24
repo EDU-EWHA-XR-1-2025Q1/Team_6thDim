@@ -373,6 +373,7 @@
 "Assets/2276246_LJH/_Pick_Controller.cs"
 "Assets/2276246_LJH/_Put_Controller.cs"
 "Assets/2276246_LJH/_UI_Controller.cs"
+"Assets/Original_Scene_Controller.cs"
 "Assets/UnityTechnologies/EffectExamples/Shared/Scripts/DecalDestroyer.cs"
 "Assets/UnityTechnologies/EffectExamples/Shared/Scripts/ExtinguishableFire.cs"
 "Assets/UnityTechnologies/EffectExamples/Shared/Scripts/GunAim.cs"
