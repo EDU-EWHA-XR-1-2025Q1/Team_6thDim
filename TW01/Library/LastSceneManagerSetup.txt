@@ -1,5 +1,13 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/2171023_SYL/2171023_SYL.unity
+=======
+<<<<<<< HEAD
+- path: Assets/2276185_YDN/Scenes/Dana_scene.unity
+=======
+- path: Assets/Original_Scene.unity
+>>>>>>> 5908430d3de7ad743e14888a5698ad84e79983b1
+>>>>>>> origin/main
   isLoaded: 1
   isActive: 1
   isSubScene: 0
