@@ -735,7 +735,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1680721245}
         m_TargetAssemblyTypeName: Load_Scene_jh, Assembly-CSharp
-        m_MethodName: OnClicke_LoadScene
+        m_MethodName: LoadSceneByName
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2020,6 +2020,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6be983ea3d468174aa96246d4163f3d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneToLoad: Original_Scene
 --- !u!1 &1691411659
 GameObject:
   m_ObjectHideFlags: 0

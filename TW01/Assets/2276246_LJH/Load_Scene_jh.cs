@@ -5,8 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class Load_Scene_jh : MonoBehaviour
 {
-    public void OnClicke_LoadScene()
+    public string sceneToLoad;
+
+    public void LoadSceneByName()
     {
-        SceneManager.LoadScene(0);
+        if (!string.IsNullOrEmpty(sceneToLoad))
+        {
+            SceneManager.LoadScene(sceneToLoad);
+        }
+        else
+        {
+            Debug.LogWarning("LoadScene 실패: sceneToLoad가 비어 있음");
+        }
     }
+
 }
