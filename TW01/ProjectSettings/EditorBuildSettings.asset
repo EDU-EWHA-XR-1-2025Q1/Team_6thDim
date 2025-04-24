@@ -12,6 +12,14 @@ EditorBuildSettings:
     path: Assets/2271024_KHS/heeseo_scene.unity
     guid: f8e0bf6bb21064071bf9e187d641bb9f
   - enabled: 1
+<<<<<<< Updated upstream
     path: Assets/2171023_SYL/2171023_SYL.unity
     guid: 44fe669897a67934884b133a26c93342
+=======
+    path: Assets/2276114_MSP/minseo_scene.unity
+    guid: e5b950e37a5d6d249a38942eed68fc73
+>>>>>>> Stashed changes
+  - enabled: 1
+    path: Assets/2276209_YJW/jiwoon_scene.unity
+    guid: 2dfd78530ecb9ab4bbfc0563c0c56a2f
   m_configObjects: {}
