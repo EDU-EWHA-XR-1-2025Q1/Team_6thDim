@@ -16,8 +16,8 @@ public class heeseo_Pick_Controller : MonoBehaviour
         {
             clickCounter++;
             print($"clickCount : {clickCounter}");
-            Destroy(Clone);
 
+            Destroy(Clone);
             UI.GetComponent<heeseo_UI_Controller>().Display_PickCounts(clickCounter);
         }
     }
@@ -29,14 +29,14 @@ public class heeseo_Pick_Controller : MonoBehaviour
 
     private void OnTriggerEnter(Collider other) 
     {
-        if(other.name == "First Person Controller") 
+        if(other.name == "FPSController") 
         {
             isInThePickArea = true;
         }
     }
     private void OnTriggerExit(Collider other) 
     {
-        if (other.name == "First Person Controller") 
+        if (other.name == "FPSController") 
         {
             isInThePickArea = false; 
         }

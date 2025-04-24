@@ -365,6 +365,7 @@
 "Assets/2271024_KHS/heeseo_Put_Controller.cs"
 "Assets/2271024_KHS/heeseo_Scene_Controller.cs"
 "Assets/2271024_KHS/heeseo_UI_Controller.cs"
+"Assets/Original_Scene_Controller.cs"
 -langversion:9.0
 /deterministic
 /optimize+
