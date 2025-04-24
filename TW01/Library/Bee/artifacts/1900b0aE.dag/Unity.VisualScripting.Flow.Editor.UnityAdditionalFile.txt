@@ -1,1 +1,5 @@
-C:\XR_SixthDim\Team_6thDim\TW01
+<<<<<<< HEAD
+C:\Users\totor\Team_6thDim\TW01
+=======
+C:\Users\anna2\Desktop\Team_6thDim\TW01
+>>>>>>> 9da7c9f5beba6e6d975881478159654181ef194f
