@@ -4,5 +4,32 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/HelloCSE/Puzzle01.unity
+    guid: 42f32bccda2424c84a57572b38ad28a9
+  - enabled: 1
+    path: Assets/HelloCSE/Puzzle02.unity
+    guid: b78abf694c4b14f3c832774b233fc973
+  - enabled: 1
+    path: Assets/HelloCSE/Puzzle03.unity
+    guid: 63ba3ec7d175948cb903a3ecd83288d0
+  - enabled: 1
+    path: Assets/HelloCSE/Puzzle04.unity
+    guid: d6342b7076d024f53beb854277ebb608
+  - enabled: 1
+    path: Assets/HelloCSE/Puzzle05.unity
+    guid: d03c8d3a942ae44b7b0897aad202728c
+  - enabled: 1
+    path: Assets/HelloCSE/Puzzle06.unity
+    guid: c6793555bc3964253883e032aa6cf879
+  - enabled: 1
+    path: Assets/HelloCSE/Scene_Home.unity
+    guid: a357a223bd09a4957abfa4be5498594c
+  - enabled: 1
+    path: Assets/HelloCSE/Scene_OnBoarding.unity
+    guid: 1d32508b6498d465bab28ae04c7ecdf7
+  - enabled: 1
+    path: Assets/HelloCSE/Scene_Status.unity
+    guid: 9cb7e39ea612448328114ab59d9abc99
   m_configObjects: {}
