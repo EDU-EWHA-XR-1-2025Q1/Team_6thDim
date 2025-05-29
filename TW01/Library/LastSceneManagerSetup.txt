@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/2276114_MSP/minseo_scene.unity
+- path: Assets/TW02/Scene_Status.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

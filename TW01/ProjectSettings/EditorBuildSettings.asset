@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/2276114_MSP/minseo_scene.unity
     guid: e5b950e37a5d6d249a38942eed68fc73
+  - enabled: 1
+    path: Assets/TW02/Scene_Status.unity
+    guid: 9de69caddf8c54a3986a184d6ed276fa
   m_configObjects: {}

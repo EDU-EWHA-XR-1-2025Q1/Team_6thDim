@@ -375,6 +375,7 @@
 "Assets/2276114_MSP/clicktest.cs"
 "Assets/2276114_MSP/minseo_pickManager.cs"
 "Assets/2276114_MSP/minseo_returnToOriginal.cs"
+"Assets/2276114_MSP/minseo_Scene_Controller.cs"
 "Assets/2276185_YDN/Dana_Bowl_Controller.cs"
 "Assets/2276185_YDN/Dana_Instantiate_GameObject.cs"
 "Assets/2276185_YDN/Dana_Item_Controller.cs"
