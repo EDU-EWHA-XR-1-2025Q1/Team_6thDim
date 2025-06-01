@@ -284,9 +284,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\uB2E4\uC74C \uD37C\uC990 \uD68D\uB4DD\uD558\uB7EC \uAC00\uAE30"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1189c4c6de43c49118bf87dfd166aa17, type: 2}
-  m_sharedMaterial: {fileID: 4584953424870305517, guid: 1189c4c6de43c49118bf87dfd166aa17,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -420,9 +419,8 @@ MonoBehaviour:
   m_text: "\uACF5\uAC15 \uC2DC\uAC04\uC774\uB098 \uD300\uD50C \uBBF8\uD305 \uB54C
     \uC0AC\uC6A9\uD558\uAE30 \uC88B\uB2E4"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1189c4c6de43c49118bf87dfd166aa17, type: 2}
-  m_sharedMaterial: {fileID: 4584953424870305517, guid: 1189c4c6de43c49118bf87dfd166aa17,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -555,9 +553,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\uAE38\uCC3E\uAE301"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1189c4c6de43c49118bf87dfd166aa17, type: 2}
-  m_sharedMaterial: {fileID: 4584953424870305517, guid: 1189c4c6de43c49118bf87dfd166aa17,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -690,9 +687,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\uD37C\uC990 \uD68D\uB4DD"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1189c4c6de43c49118bf87dfd166aa17, type: 2}
-  m_sharedMaterial: {fileID: 4584953424870305517, guid: 1189c4c6de43c49118bf87dfd166aa17,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -919,9 +915,8 @@ MonoBehaviour:
   m_text: "\uCEF4\uD4E8\uD130\uACF5\uD559\uACFC \uACFC\uBC29\uC73C\uB85C \uAC00\uC790\n\uC544\uC0B0\uACF5\uD559\uAD00
     1\uCE35 121\uD638"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1189c4c6de43c49118bf87dfd166aa17, type: 2}
-  m_sharedMaterial: {fileID: 4584953424870305517, guid: 1189c4c6de43c49118bf87dfd166aa17,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1025,6 +1020,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextPuzzleButton: {fileID: 1814780936}
+  pieceID: 1
 --- !u!4 &1016136283
 Transform:
   m_ObjectHideFlags: 0
@@ -1477,6 +1473,7 @@ GameObject:
   - component: {fileID: 1322032272}
   - component: {fileID: 1322032271}
   - component: {fileID: 1322032270}
+  - component: {fileID: 1322032273}
   m_Layer: 5
   m_Name: GetPuzzleButton
   m_TagString: Untagged
@@ -1548,9 +1545,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1016136282}
-        m_TargetAssemblyTypeName: PuzzleButtonController, Assembly-CSharp
-        m_MethodName: OnClickGetPuzzle
+      - m_Target: {fileID: 1322032273}
+        m_TargetAssemblyTypeName: PuzzleCollectButton, Assembly-CSharp
+        m_MethodName: OnClickCollect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1598,6 +1595,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1322032268}
   m_CullTransparentMesh: 1
+--- !u!114 &1322032273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1322032268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcae90ef34f34b24e9fa3f0f37d2f68c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pieceID: 1
+  returnSceneName: Scene_Status
 --- !u!1 &1474266851
 GameObject:
   m_ObjectHideFlags: 0
