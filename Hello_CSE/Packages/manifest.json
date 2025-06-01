@@ -1,6 +1,6 @@
 {
-    "dependencies": {
-    "com.ptc.vuforia.engine": "file:com.ptc.vuforia.engine-11.2.4.tgz",
+  "dependencies": {
+    "com.ptc.vuforia.engine": "file:/Users/hsamy/Downloads/com.ptc.vuforia.engine-11.1.3-2.tgz",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.2d.tilemap": "1.0.0",
     "com.unity.collab-proxy": "2.6.0",
@@ -12,7 +12,7 @@
     "com.unity.textmeshpro": "3.0.7",
     "com.unity.timeline": "1.7.6",
     "com.unity.ugui": "2.0.0",
-    "com.unity.visualscripting": "1.9.4",
+    "com.unity.visualscripting": "1.9.7",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
