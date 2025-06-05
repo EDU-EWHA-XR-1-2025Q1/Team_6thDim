@@ -278,7 +278,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 565}
+  m_AnchoredPosition: {x: 0, y: 491}
   m_SizeDelta: {x: 817.3715, y: 98.9639}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &515983183
@@ -330,8 +330,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 37
-  m_fontSizeBase: 37
+  m_fontSize: 38
+  m_fontSizeBase: 38
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -414,7 +414,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -36}
+  m_AnchoredPosition: {x: 0.000046283, y: -95}
   m_SizeDelta: {x: 165.938, y: 83.3586}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &544682248
@@ -501,7 +501,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0.00012207031, z: 0, w: -46.590332}
+  m_margin: {x: 0, y: 9.250159, z: 0, w: -0.33959103}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -574,8 +574,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\uD37C\uC990 \uD68D\uB4DD"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 94e7c5857a7d440b096db8bd6324b894, type: 2}
+  m_sharedMaterial: {fileID: -7467377648672686462, guid: 94e7c5857a7d440b096db8bd6324b894,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -690,7 +691,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000075976, y: -211.5}
+  m_AnchoredPosition: {x: 0.000038685, y: -281}
   m_SizeDelta: {x: 692, y: 423}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &654499143
@@ -776,8 +777,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.45648146, y: 0.84939593}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 122, y: -155.63}
-  m_SizeDelta: {x: 153, y: -155.6279}
+  m_AnchoredPosition: {x: 126.25, y: -216}
+  m_SizeDelta: {x: 152.5, y: -155.6279}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1004247123
 MonoBehaviour:
@@ -802,8 +803,8 @@ MonoBehaviour:
   m_text: "\uCEF4\uD4E8\uD130\uACF5\uD559\uACFC \uACFC\uC2E4\uB85C \uAC00\uC790\n\uC544\uC0B0\uACF5\uD559\uAD00
     1\uCE35 121\uD638"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 94e7c5857a7d440b096db8bd6324b894, type: 2}
-  m_sharedMaterial: {fileID: -7467377648672686462, guid: 94e7c5857a7d440b096db8bd6324b894,
+  m_fontAsset: {fileID: 11400000, guid: bed4dab7efe8b429eaaf58e12eac0c77, type: 2}
+  m_sharedMaterial: {fileID: -1732759922850941827, guid: bed4dab7efe8b429eaaf58e12eac0c77,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1168,14 +1169,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: bird-bird-of-prey-3010950_1280
+  mTrackableName: Computer1
   mInitializedInEditor: 1
-  mDataSetPath: 
-  mAspectRatio: 0.665625
-  mImageTargetType: 3
-  mWidth: 0.19999999
-  mHeight: 0.13312499
-  mRuntimeTexture: {fileID: 2800000, guid: 4b852b0f74fc4b742b51abfaab29079d, type: 3}
+  mDataSetPath: Vuforia/TargetDB.xml
+  mAspectRatio: 0.75
+  mImageTargetType: 0
+  mWidth: 1
+  mHeight: 0.75
+  mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -1207,8 +1208,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1137713601}
   mHiddenRoot: {fileID: 0}
-  mTargetName: bird-bird-of-prey-3010950_1280
-  mDatasetName: 
+  mTargetName: Computer1
+  mDatasetName: Vuforia/TargetDB.xml
   mCastedBehaviour: {fileID: 1137713601}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -1385,7 +1386,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000019503, y: -544}
+  m_AnchoredPosition: {x: 0.000019503, y: -649}
   m_SizeDelta: {x: 692, y: 174.8639}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1322032270
@@ -1563,7 +1564,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000066757, y: 261}
+  m_AnchoredPosition: {x: 0.000052958, y: 186}
   m_SizeDelta: {x: 692, y: 423}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1689712050
@@ -1600,7 +1601,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 4b852b0f74fc4b742b51abfaab29079d, type: 3}
+  m_Texture: {fileID: 2800000, guid: 443deac9f1d269f4997952f05eb14d7e, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1837,6 +1838,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 292447846}
     m_Modifications:
+    - target: {fileID: 500950377124370440, guid: 84965b2d3a47c441d86f6a80a42a9052,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 500950377124370440, guid: 84965b2d3a47c441d86f6a80a42a9052,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 142
+      objectReference: {fileID: 0}
     - target: {fileID: 675501803433972530, guid: 84965b2d3a47c441d86f6a80a42a9052,
         type: 3}
       propertyPath: m_Name
@@ -2022,6 +2033,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5038052435138006342, guid: 84965b2d3a47c441d86f6a80a42a9052,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -271
+      objectReference: {fileID: 0}
     - target: {fileID: 6179850144887859382, guid: 84965b2d3a47c441d86f6a80a42a9052,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -2061,6 +2077,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8674082114924100187, guid: 84965b2d3a47c441d86f6a80a42a9052,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 280
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
