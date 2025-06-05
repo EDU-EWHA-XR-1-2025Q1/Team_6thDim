@@ -73,3 +73,39 @@ crashlytics-build.properties
 /HelloCSE/Assets/HelloCSE
 
 *.tgz
+
+
+
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+MemoryCaptures/
+
+# VSCode/IDEA/Visual Studio
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.pidb
+*.booproj
+*.svd
+
+# OS/System
+.DS_Store
+Thumbs.db
+
+# Auto-saves & backups
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Unity Collab & Cloud
+.collabignore
+sysinfo.txt

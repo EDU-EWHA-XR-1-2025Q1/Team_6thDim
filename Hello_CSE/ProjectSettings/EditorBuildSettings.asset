@@ -9,30 +9,30 @@ EditorBuildSettings:
     path: Assets/SamplesResources/Scenes/0-Main.unity
     guid: a09cb257d566c489595b16ab37547666
   - enabled: 1
-    path: Assets/HelloCSE/Puzzle01.unity
-    guid: 42f32bccda2424c84a57572b38ad28a9
-  - enabled: 1
     path: Assets/HelloCSE/Scene_Home.unity
-    guid: a357a223bd09a4957abfa4be5498594c
-  - enabled: 1
-    path: Assets/HelloCSE/Puzzle02.unity
-    guid: b78abf694c4b14f3c832774b233fc973
-  - enabled: 1
-    path: Assets/HelloCSE/Puzzle06.unity
-    guid: eb6a7bbe15143f74fb12b91bd38ad951
-  - enabled: 1
-    path: Assets/HelloCSE/Puzzle05.unity
-    guid: 4c94c5f7653af124088a07cd89b96307
-  - enabled: 1
-    path: Assets/HelloCSE/Puzzle04.unity
-    guid: 585d29f1fea089b43b73804ff2c41023
-  - enabled: 1
-    path: Assets/HelloCSE/Puzzle03.unity
-    guid: c52d0f815c468b24eb1be366cd612ec9
-  - enabled: 1
-    path: Assets/HelloCSE/Scene_Status.unity
-    guid: 9cb7e39ea612448328114ab59d9abc99
+    guid: df4c4d604d3edcf4584adbf954dc7502
   - enabled: 1
     path: Assets/HelloCSE/Scene_OnBoarding.unity
-    guid: 1d32508b6498d465bab28ae04c7ecdf7
+    guid: c9f5c66b53ebbfb439f686c8b018af10
+  - enabled: 1
+    path: Assets/HelloCSE/Scene_Status.unity
+    guid: 3b80529b9ea88b4489281824c5d5e33f
+  - enabled: 1
+    path: Assets/HelloCSE/Puzzle01.unity
+    guid: f4a824ddd9c65b34ba08ab82e850dc4d
+  - enabled: 1
+    path: Assets/HelloCSE/Puzzle02.unity
+    guid: 1856e55ac4046ae4ba1c103e8f37ef4c
+  - enabled: 1
+    path: Assets/HelloCSE/Puzzle03.unity
+    guid: 7a36612a01f8c5241aee4d8d9b2630e6
+  - enabled: 1
+    path: Assets/HelloCSE/Puzzle04.unity
+    guid: c5b19a5b9edbaaf458aeffda11e71c89
+  - enabled: 1
+    path: Assets/HelloCSE/Puzzle05.unity
+    guid: aa8900ff3778220448fded5eab65d5c3
+  - enabled: 1
+    path: Assets/HelloCSE/Puzzle06.unity
+    guid: 02ffc0e17f6debe47a5290a3c171f596
   m_configObjects: {}
