@@ -282,8 +282,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uACFC\uC0AC\uBB34\uC2E4\uC5D0 \uC6A9\uBB34\uAC00 \uC788\uC744 \uB54C
-    \uBC29\uBB38"
+  m_text: "\uD5C8\uAE30\uC9C8 \uB54C\uB294 \uC774\uB9C8\uD2B824\uB85C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 94e7c5857a7d440b096db8bd6324b894, type: 2}
   m_sharedMaterial: {fileID: -7467377648672686462, guid: 94e7c5857a7d440b096db8bd6324b894,
@@ -640,8 +639,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uCEF4\uD4E8\uD130\uACF5\uD559\uACFC \uACFC\uC0AC\uB85C \uAC00\uC790\n\uC544\uC0B0\uACF5\uD559\uAD00
-    3\uCE35 314\uD638"
+  m_text: "\uACF5\uB300 \uC774\uB9C8\uD2B824\uB85C \uAC00\uC790\n\uC544\uC0B0\uACF5\uD559\uAD00
+    1\uCE35 "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bed4dab7efe8b429eaaf58e12eac0c77, type: 2}
   m_sharedMaterial: {fileID: -1732759922850941827, guid: bed4dab7efe8b429eaaf58e12eac0c77,
@@ -1009,13 +1008,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: cafe
+  mTrackableName: emart
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/TargetDB.xml
-  mAspectRatio: 0.671017
+  mAspectRatio: 0.533473
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 0.671017
+  mHeight: 0.533473
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -1048,7 +1047,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1137713601}
   mHiddenRoot: {fileID: 0}
-  mTargetName: cafe
+  mTargetName: emart
   mDatasetName: Vuforia/TargetDB.xml
   mCastedBehaviour: {fileID: 1137713601}
   mMeshFilter: {fileID: 0}
@@ -1576,7 +1575,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 4b852b0f74fc4b742b51abfaab29079d, type: 3}
+  m_Texture: {fileID: 2800000, guid: bc4d3c82734432044a3305bc61ab3e11, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
