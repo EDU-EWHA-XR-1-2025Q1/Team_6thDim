@@ -4,34 +4,49 @@ using TMPro;
 
 public class NameInputManager : MonoBehaviour
 {
-    public Button nameButton;         // "000님" 버튼
-    public TextMeshProUGUI nameText;  // 버튼 안에 있는 텍스트
-    public GameObject inputFieldObj;  // InputField 오브젝트
-    public TMP_InputField inputField; // InputField 컴포넌트
+    public Button nameButton;
+    public TextMeshProUGUI nameText;
+    public GameObject inputFieldObj;
+    public TMP_InputField inputField;
+
+    private const string playerNameKey = "PlayerName";
 
     void Start()
     {
-        inputFieldObj.SetActive(false); // 시작할 때 입력창 꺼놓기
-
-        // 버튼 클릭 시 입력창 열기
+        inputFieldObj.SetActive(false);
         nameButton.onClick.AddListener(OpenInputField);
-
-        // 엔터(Submit) 시 이름 저장
         inputField.onEndEdit.AddListener(OnNameEntered);
+
+        // 저장된 이름이 있으면 UI에 표시
+        string savedName = PlayerPrefs.GetString(playerNameKey, "");
+        if (!string.IsNullOrEmpty(savedName))
+        {
+            nameText.text = savedName + "님";
+        }
     }
 
     void OpenInputField()
     {
-        inputFieldObj.SetActive(true);   // 입력창 보이기
-        inputField.ActivateInputField(); // 포커스 주기 (바로 타이핑 가능)
+        inputFieldObj.SetActive(true);
+        inputField.ActivateInputField();
     }
 
     void OnNameEntered(string input)
     {
         if (!string.IsNullOrEmpty(input))
         {
-            nameText.text = input + "님"; // 입력된 이름 + "님"
+            nameText.text = input + "님";
+            PlayerPrefs.SetString(playerNameKey, input);
+            PlayerPrefs.Save(); // 저장을 디스크에 즉시 반영
         }
-        inputFieldObj.SetActive(false);   // 입력창 닫기
+        inputFieldObj.SetActive(false);
     }
+    void OnApplicationQuit()
+    {
+#if UNITY_EDITOR
+        PlayerPrefs.DeleteKey("PlayerName");  // 저장된 이름 삭제
+        PlayerPrefs.Save();                   // 즉시 반영
+#endif
+    }
+
 }
